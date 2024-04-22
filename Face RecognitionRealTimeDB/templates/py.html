@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Data to Firebase</title>
+    <link rel="stylesheet" href="py.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Upload Data to Firebase</h2>
+        <form id="upload-form">
+            <!-- Form fields -->
+            <!-- Input fields for student data -->
+            <input type="text" id="student-id" placeholder="Student ID" required>
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="course" placeholder="Course" required>
+            <input type="number" id="starting-year" placeholder="Starting Year" required>
+            <input type="number" id="total-attendance" placeholder="Total Attendance" required>
+            <input type="number" id="year" placeholder="Year" required>
+            <input type="text" id="last-attendance-time" placeholder="Last Attendance Time" required>
+            <!-- Input field for image selection -->
+            <input type="file" id="image" accept="image/*">
+            <div id="image-preview"></div>
+            <button type="submit">Upload Data</button>
+        </form>
+    </div>
+    <script src="py.js"></script>
+</body>
+</html>
